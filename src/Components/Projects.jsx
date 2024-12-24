@@ -100,8 +100,8 @@ function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            data-aos="flip-left"
-            data-aos-delay={index * 100} 
+            // data-aos="flip-left"
+            // data-aos-delay={index * 100} 
             className="border rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800"
           >
             <img
