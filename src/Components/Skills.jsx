@@ -22,43 +22,43 @@ const Skills = () => {
 
         <div
           className="dark:text-white text-white flex items-center justify-center flex-wrap pb-[50px] gap-6"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
+        //   data-aos="fade-down"
+        //   data-aos-easing="linear"
+        //   data-aos-duration="1500"
         >
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
             <img className="w-[20%]" src={Html} alt="htmlimg" />
             <p className="p-7">HTML5</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
-            <img className="w-[20%]" src={Css} alt="cssimg" />
+          <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
+            <img className="w-[20%] " src={Css} alt="cssimg" />
             <p className="p-7">CSS3</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
             <img className="w-[20%]" src={Js} alt="jsimg" />
             <p className="p-7">JAVASCRIPT</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
             <img className="w-[20%]" src={ReactImg} alt="rctimg" />
             <p className="p-7">REACT</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
             <img className="w-[20%]" src={Tailwind} alt="tailwimg" />
             <p className="p-7">TAILWIND</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
-            <img className="w-[20%]" src={Bootstrap} alt="bootimg" />
+          <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
+            <img className="w-[20%] " src={Bootstrap} alt="bootimg" />
             <p className="p-7">BOOTSTRAP</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
             <img className="w-[20%]" src={Git} alt="gitimg" />
             <p className="p-7">GIT</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
-            <img className="w-[20%]" src={GitHub} alt="githubimg" />
+          <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
+            <img className="w-[20%] " src={GitHub} alt="githubimg" />
             <p className="p-7">GITHUB</p>
           </div>
-          <div className="flex items-center justify-center bg-[#161313] p-3 w-[25%]">
+          <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
             <img className="w-[20%]" src={MaterialUi} alt="muiimg" />
             <p className="p-7">MUI</p>
           </div>
@@ -69,3 +69,6 @@ const Skills = () => {
 };
 
 export default Skills;
+
+
+
