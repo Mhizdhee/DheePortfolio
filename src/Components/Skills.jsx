@@ -8,12 +8,16 @@ import Bootstrap from "../assets/Images/logos_bootstrap.svg";
 import Git from "../assets/Images/gitt.png";
 import GitHub from "../assets/Images/git.png";
 import MaterialUi from "../assets/Images/MateriaUI.png";
+import TypeScript from "../assets/Images/Typescript.png";
 // import Tailwind from "../Images/Tailwind.png";
 
 const Skills = () => {
   return (
     <>
-      <div id="skills" className=" bg-gray-50 dark:bg-gray-900 dark:text-[#f0f8ff] flex flex-col py-10 px-8 justify-center text-gray-800">
+      <div
+        id="skills"
+        className=" bg-gray-50 dark:bg-gray-900 dark:text-[#f0f8ff] flex flex-col py-10 px-8 justify-center text-gray-800"
+      >
         {/* <h2 className="text-[30px] p-5 mb-5"><span className="w-[100%]">-</span>My Skills</h2> */}
         <h2 className="text-[30px] p-5 mb-5 flex items-center">
           <span className="inline-block w-[50px] h-[4px] bg-[#5eb1f5] mr-1"></span>
@@ -22,12 +26,12 @@ const Skills = () => {
 
         <div
           className="dark:text-white text-white flex items-center justify-center flex-wrap pb-[50px] gap-6"
-        //   data-aos="fade-down"
-        //   data-aos-easing="linear"
-        //   data-aos-duration="1500"
+          //   data-aos="fade-down"
+          //   data-aos-easing="linear"
+          //   data-aos-duration="1500"
         >
           <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
-            <img className="w-[20%]" src={Html} alt="htmlimg" />
+            <img className="w-[15%]" src={Html} alt="htmlimg" />
             <p className="p-7">HTML5</p>
           </div>
           <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
@@ -45,6 +49,10 @@ const Skills = () => {
           <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
             <img className="w-[20%]" src={Tailwind} alt="tailwimg" />
             <p className="p-7">TAILWIND</p>
+          </div>
+          <div className="flex items-center justify-center bg-[#161313] p-3 md:w-[25%] w-full">
+            <img className="w-[20%]" src={TypeScript} alt="tailwimg" />
+            <p className="p-7">TYPESCRIPT</p>
           </div>
           <div className="flex items-center justify-center bg-[#161313] p-3 w-full md:w-[25%]">
             <img className="w-[20%] " src={Bootstrap} alt="bootimg" />
@@ -69,6 +77,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-

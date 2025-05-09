@@ -9,8 +9,16 @@ import GameWin from "../assets/Images/gamewin.png";
 import Revve from "../assets/Images/revveme.png";
 import FormWork from "../assets/Images/formwork.png";
 import Smapps from "../assets/Images/smapps.png";
+import Orange from "../assets/Images/orange.png";
 
 const projects = [
+  // {
+  //   title: "OrangeLuckyNumber",
+  //   description: " React.js, Tailwind CSS",
+  //   image: Orange,
+  //   link: "https://github.com/Mhizdhee/Form-work",
+  //   live: "https://formwork.netlify.app/",
+  // },
   {
     title: "Formwork",
     description:
@@ -90,8 +98,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div id="projects" 
-    className="py-10 px-8 bg-gray-200 dark:bg-gray-700">
+    <div id="projects" className="py-10 px-8 bg-gray-200 dark:bg-gray-700">
       <h2 className="text-[30px] font-bold text-gray-900 dark:text-gray-100 p-5 mb-5 flex items-center">
         <span className="inline-block w-[50px] h-[4px] bg-[#5eb1f5] mr-1"></span>
         Projects
@@ -101,7 +108,7 @@ function Projects() {
           <div
             key={index}
             // data-aos="flip-left"
-            // data-aos-delay={index * 100} 
+            // data-aos-delay={index * 100}
             className="border rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800"
           >
             <img
